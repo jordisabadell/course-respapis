@@ -1,5 +1,5 @@
-# Curso REST APIs
-Autor: CodeNoSchool
+# Course REST APIs
+Author: CodeNoSchool
 
-Lista reproducción: https://www.youtube.com/playlist?list=PLBO4apWPK7b6tRI_B1MQGZfvI6c3ViQd-
-Código fuente: https://github.com/codenoschool/restapis-course
+Play list: https://www.youtube.com/playlist?list=PLBO4apWPK7b6tRI_B1MQGZfvI6c3ViQd-
+Source code: https://github.com/codenoschool/restapis-course
