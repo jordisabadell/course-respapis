@@ -97,6 +97,17 @@ def edit_framework(id):
     else:
         return result(True, "Id '" + str(id) + "' not found.", "")
 
+@app.route("/api/frameworks/<int:id>", methods=["DELETE"])
+def delete_framework(id):
+    framework = [item for item in frameworks if item["id"]==id]
+
+    if len(framework)>0: #if exists id
+        frameworks.remove(framework[0])
+        
+        return result(False, "", frameworks)
+    else:
+        return result(True, "Id '" + str(id) + "' not found.", "")
+    
 
 if __name__ == "__main__":
     app.run(debug=True) #update changes automatically
